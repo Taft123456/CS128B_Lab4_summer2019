@@ -28,6 +28,9 @@ void Tick()
 				state = Door_Relock;
 			}
 		break;
+		case Input_Release :
+			state = Next_Command;
+		break;
 		case Next_Command :
 			if( (PINA | 0x02) == 0x02 ){
 				state = Door_Unlock;
