@@ -56,12 +56,12 @@ void Tick()
 	    case Wait_Command :
 
 	    break;
-		case Input_Release :
+	    case Input_Release :
 		
-		break;
-		case Next_Command :
+	    break;
+	    case Next_Command :
 		
-		break;
+	    break;
 	    case Door_Unlock :
 			PORTB = 0x01;
 	    break;
