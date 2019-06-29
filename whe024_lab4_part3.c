@@ -83,10 +83,10 @@ void Tick()
 
 	    /* Insert your solution below */
 	    while (1) {
-			while (1)
-			{
+		while (1)
+		{
 		     Tick();
-			}
+		}
 	    }
 	    return 1;
     }
